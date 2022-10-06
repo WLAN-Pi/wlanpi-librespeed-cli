@@ -1,0 +1,22 @@
+Source: wlanpi-librespeed-cli
+Section: non-free/kernel
+Priority: optional
+Maintainer: Jiri Brejcha <josh@joshschmelzle.com>
+Uploaders:
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.3.0
+Homepage: https://github.com/WLAN-Pi/wlanpi-librespeed-cli
+
+Package: wlanpi-librespeed-cli
+Architecture: all
+Provides:
+Depends: ${misc:Depends}
+Recommends:
+Suggests:
+Breaks:
+Conflicts:
+Description: LibreSpeed CLI tool
+ Packaged by WLAN Pi team.
+ .
+ Contents:
+ * librespeed-cli

@@ -1,2 +1,4 @@
 # wlanpi-librespeed-cli
-librespeed-cli tool packaged by the WLAN Pi team
+Contains librespeed-cli tool maintained here: https://github.com/librespeed/speedtest-cli
+
+Packaged by the WLAN Pi team.
