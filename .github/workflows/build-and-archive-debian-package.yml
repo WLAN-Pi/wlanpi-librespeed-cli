@@ -16,8 +16,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        distro: [bullseye]
-        arch: [armhf,arm64]
+        distro: [bullseye,bookworm]
+        arch: [arm64]
     
     steps:
       - name: Checkout
