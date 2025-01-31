@@ -1,3 +1,9 @@
+wlanpi-librespeed-cli (1.0.1) unstable; urgency=medium
+
+  * Build for bookworm
+
+ -- Josh Schmelzle <josh@joshschmelzle.com> Fri, 31 Jan 2025 00:00:00 -0500
+
 wlanpi-librespeed-cli (1.0.0) unstable; urgency=medium
 
   * Initial release
