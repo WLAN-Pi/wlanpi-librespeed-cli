@@ -5,7 +5,11 @@ on:
 
   pull_request:
     paths:
-      - 'debian/changelog'
+      - '.github/workflows/build-and-archive-debian-package.yml'
+      - 'debian/**'
+      - 'opt/**'
+      - 'LICENSE*'
+      - 'UPSTREAM.md'
 
 permissions:
   contents: read
@@ -37,7 +41,7 @@ jobs:
       - name: Archive artifacts and upload to GitHub
         uses: actions/upload-artifact@v7
         with:
-          name: wlanpi-common-${{ matrix.distro }}-${{ matrix.arch }}
+          name: wlanpi-librespeed-cli-${{ matrix.distro }}-${{ matrix.arch }}
           path: ${{ steps.build-debian-package.outputs.deb-package }}
 
   slack-workflow-status:
