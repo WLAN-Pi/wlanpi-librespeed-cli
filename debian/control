@@ -1,5 +1,5 @@
 Source: wlanpi-librespeed-cli
-Section: non-free/kernel
+Section: net
 Priority: optional
 Maintainer: Jiri Brejcha <josh@joshschmelzle.com>
 Uploaders:
@@ -8,15 +8,13 @@ Standards-Version: 4.3.0
 Homepage: https://github.com/WLAN-Pi/wlanpi-librespeed-cli
 
 Package: wlanpi-librespeed-cli
-Architecture: all
+Architecture: arm64
 Provides:
 Depends: ${misc:Depends}
 Recommends:
 Suggests:
 Breaks:
 Conflicts:
-Description: LibreSpeed CLI tool
- Packaged by WLAN Pi team.
- .
- Contents:
- * librespeed-cli
+Description: command-line client for LibreSpeed
+ Command-line client for testing internet connection performance against
+ LibreSpeed servers.
