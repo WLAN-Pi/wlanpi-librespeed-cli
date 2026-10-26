@@ -1,7 +1,3 @@
-# The package installs the upstream LibreSpeed CLI binary under
-# /opt/wlanpi-librespeed-cli. /opt is reserved for add-on software. These
-# packages are not candidates for the Debian archive.
 wlanpi-librespeed-cli: dir-or-file-in-opt
 
-# The file is the unmodified upstream static binary. See UPSTREAM.md.
 wlanpi-librespeed-cli: statically-linked-binary

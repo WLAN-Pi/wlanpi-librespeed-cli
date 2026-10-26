@@ -14,6 +14,6 @@ fi
 
 # dpkg-source for 3.0 (quilt) reads ../<source>_<upstream>.orig.tar.gz.
 # The shared sbuild action runs dpkg-source itself, so the tarball has to
-# exist first. It is this tree without debian/.
+# exist first.
 tar --exclude=./debian --exclude=./.git \
     -czf "../${source}_${upstream}.orig.tar.gz" .
