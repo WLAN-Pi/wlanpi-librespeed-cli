@@ -10,6 +10,7 @@ on:
     paths:
       - '.github/workflows/deploy-to-packagecloud.yml'
       - 'debian/**'
+      - 'create-orig-tarball.sh'
       - 'opt/**'
       - 'LICENSE*'
       - 'UPSTREAM.md'
@@ -35,6 +36,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+
+      - name: Create the upstream tarball
+        run: ./create-orig-tarball.sh
 
       - name: sbuild for ${{ matrix.distro }} ${{ matrix.arch }}
         uses: wlan-pi/sbuild-debian-package@main
