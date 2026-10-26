@@ -2,12 +2,6 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: librespeed-cli
 Source: https://github.com/librespeed/speedtest-cli
 
-Files: opt/wlanpi-librespeed-cli/librespeed-cli
-Copyright: 2016-2020 Federico Dossena
-           2020 Maddie Zhan
-License: LGPL-3.0
- See /usr/share/common-licenses/LGPL-3.
-
 Files: *
 Copyright: 2022-2026 WLAN Pi
 License: BSD-3-clause
@@ -29,3 +23,9 @@ License: BSD-3-clause
  ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
  CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE.
+
+Files: opt/wlanpi-librespeed-cli/librespeed-cli
+Copyright: 2016-2020 Federico Dossena
+           2020 Maddie Zhan
+License: LGPL-3.0
+ See /usr/share/common-licenses/LGPL-3.

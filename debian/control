@@ -3,7 +3,7 @@ Section: net
 Priority: optional
 Maintainer: Jiri Brejcha <josh@joshschmelzle.com>
 Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.3.0
+Standards-Version: 4.7.2
 Homepage: https://github.com/WLAN-Pi/wlanpi-librespeed-cli
 
 Package: wlanpi-librespeed-cli
