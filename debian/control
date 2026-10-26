@@ -2,19 +2,13 @@ Source: wlanpi-librespeed-cli
 Section: net
 Priority: optional
 Maintainer: Jiri Brejcha <josh@joshschmelzle.com>
-Uploaders:
-Build-Depends: debhelper (>= 11)
+Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.3.0
 Homepage: https://github.com/WLAN-Pi/wlanpi-librespeed-cli
 
 Package: wlanpi-librespeed-cli
 Architecture: arm64
-Provides:
 Depends: ${misc:Depends}
-Recommends:
-Suggests:
-Breaks:
-Conflicts:
 Description: command-line client for LibreSpeed
  Command-line client for testing internet connection performance against
  LibreSpeed servers.
